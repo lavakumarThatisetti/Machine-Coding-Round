@@ -24,33 +24,35 @@ public class PlaySnakeAndLadder {
         int i=-1;
         do {
             i++;
-            if(i>=entities.getPlayers().size()){
+            if(i >= entities.getPlayers().size()){
                 i=0;
             }
             StringBuilder str = new StringBuilder();
             String playeName = entities.getPlayers().get(i);
-            str.append("PlayerName: ").append(playeName);
+            str.append(playeName);
             int diceNumber = dice.getNumberOfDice();
             int endPosition  = playerLatestPosition.get(playeName) + diceNumber;
-            if(checkFordiceNumberGreaterThan100(endPosition)){
-                str.append(" Old Position: ").append(playerLatestPosition.get(playeName));
-                str.append(" Dice Value: ").append(diceNumber);
+            String sl="";
+            if(checkFordiceNumberGreaterThan100(endPosition)) {
+                str.append(" rolled a ").append(diceNumber);
+                str.append(" and moved from ").append(playerLatestPosition.get(playeName));
                 if(entities.getSnakes().get(endPosition)!=null){
                     // Captures snake
-                    str.append(" Snake Dinner : YES ");
+                    sl = " after Snake dinner" ;
                     playerLatestPosition.put(playeName,entities.getSnakes().get(endPosition));
                 }else{
                     if(entities.getLadders().get(endPosition)!=null){
                         // up ladder
-                        str.append(" Ladder Ride : YES ");
+                        sl = " after Ladder ride ";
                         playerLatestPosition.put(playeName,entities.getLadders().get(endPosition));
                     }else{
                         playerLatestPosition.put(playeName,endPosition);
                     }
                 }
-                str.append(" New Position: ").append(playerLatestPosition.get(playeName));
+                str.append(" to ").append(playerLatestPosition.get(playeName));
+                str.append(sl);
             }
-            System.out.println(str.toString());
+            System.out.println(str);
         }while (!isPlayerWon(entities.getPlayers().get(i)));
 
         return entities.getPlayers().get(i);
