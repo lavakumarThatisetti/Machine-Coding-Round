@@ -1,6 +1,6 @@
 package com.lavakumar.splitwise;
 
-import com.lavakumar.splitwise.model.Expense;
+import com.lavakumar.splitwise.model.ExpenseType;
 import com.lavakumar.splitwise.model.Type;
 import com.lavakumar.splitwise.model.User;
 import com.lavakumar.splitwise.service.ShareExpenses;
@@ -34,7 +34,7 @@ public class Main {
                     for(int i=0;i< totalMembers;i++){
                         owedUsers.add(userService.getUser(scan.next()).get());
                     }
-                    Expense expense = Expense.of(scan.next());
+                    ExpenseType expense = ExpenseType.of(scan.next());
                     switch (expense){
                         case EQUAL:
                             shareExpenses.splitEqualExpenses(
@@ -76,7 +76,7 @@ public class Main {
                     }
                     break;
                 case SHOW:
-                    String userName = scan.next();
+                    String userName = scan.nextLine();
                     shareExpenses.showExpenses(userName);
                     break;
                 case QUIT:

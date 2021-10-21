@@ -19,15 +19,15 @@ public class PlaySnakeAndLadder {
         dice = new Dice(N);
 
     }
-    public String PlayGame(){
+    public String PlayGame() {
         initilizePlayersStartValue();
         int i=-1;
         do {
-            i++;
+            i++; // i th Players playing
             if(i >= entities.getPlayers().size()){
                 i=0;
             }
-            StringBuilder str = new StringBuilder();
+            StringBuilder str = new StringBuilder(); // To print output
             String playeName = entities.getPlayers().get(i);
             str.append(playeName);
             int diceNumber = dice.getNumberOfDice();
@@ -53,7 +53,7 @@ public class PlaySnakeAndLadder {
                 str.append(sl);
             }
             System.out.println(str);
-        }while (!isPlayerWon(entities.getPlayers().get(i)));
+        } while (!isPlayerWon(entities.getPlayers().get(i)));
 
         return entities.getPlayers().get(i);
     }

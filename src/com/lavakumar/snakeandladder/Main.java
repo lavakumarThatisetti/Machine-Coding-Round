@@ -32,6 +32,6 @@ public class Main {
             noOfPlayers--;
         }
         PlaySnakeAndLadder playSnakeAndLadder = new PlaySnakeAndLadder(6);
-        System.out.println("Win: "+playSnakeAndLadder.PlayGame());
+        System.out.println(playSnakeAndLadder.PlayGame()+" wins the game");
     }
 }
