@@ -150,7 +150,7 @@ public class ShareExpenses {
         AtomicBoolean isUserHasData = new AtomicBoolean(false);
         Optional<User> showUser = getUser(userName);
         if(showUser.isPresent()){
-            // Expenses For you statements
+            // Expenses For you statements Other are resp to pay me
             if(expensesMap.get(showUser.get())!=null){
                 HashMap<User,OwedUser> owedUsers = expensesMap.get(showUser.get());
                 for(Map.Entry<User, OwedUser> entry:owedUsers.entrySet()){
@@ -159,6 +159,7 @@ public class ShareExpenses {
                     System.out.println(entry.getKey().getUserName()+" Owes "+showUser.get().getUserName()+": "+entry.getValue().getBalance());
                 }
             }
+            // I am responsible to pay
             users
                     .forEach(user ->{
                               if(expensesMap.get(user) !=null && user != showUser.get()) {
