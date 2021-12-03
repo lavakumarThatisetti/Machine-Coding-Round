@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/entity/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/entity/DisplayType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/entity/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/entity/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/entity/ParkingSlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/entity/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/entity/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/repository/ParkingDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/parkinglot/service/ParkingLotService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/service/ShareExpenses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/service/ShareExpenses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/splitwise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
