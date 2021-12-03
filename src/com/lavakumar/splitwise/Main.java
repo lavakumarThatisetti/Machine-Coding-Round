@@ -22,7 +22,7 @@ public class Main {
         ShareExpenses shareExpenses = new ShareExpenses(users);
         UserService userService = new UserService(users);
 
-        while (true){
+        while (true) {
             Scanner scan = new Scanner(System.in);
             Type type = Type.of(scan.next());
             switch (type){
