@@ -13,7 +13,7 @@
 ### Parking Lot
    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/design-parking-lot-qm6hwq4wkhp8)
    * Code : [Github Parking Lot](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/parkinglot) 
-   * Video Tutorial: Yet To Updated
+   * Video Tutorial: [Parking Lot](https://www.youtube.com/watch?v=aQf-ovnR8go)
 ### Tic-Tac-Toe
    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/design-tic-tac-toe-smyfi9x064ry)
    * Code : In this Repository
