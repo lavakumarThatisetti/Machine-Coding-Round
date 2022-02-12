@@ -31,6 +31,8 @@
    * code: https://github.com/lavakumarThatisetti/FLIPMED_Interview
    * Video:  https://www.youtube.com/watch?v=o9tOndHPxs8
 ### Bowling Alley
-* Problem Statement: Yet To Updated
+`  * Problem Statement: https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/bowlingalley/problem-statement
+   * code : https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/bowlingalley
+   * Video: Yet to update
 
 _Will Come More..._ 
