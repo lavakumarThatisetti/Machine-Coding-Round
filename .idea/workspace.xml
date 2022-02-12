@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/BowlingGameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/factory/BonusFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/model/Bonus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/problem-statement/Multiplayer Bowling Alley.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/strategy/DefaultStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/strategy/SparseStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/strategy/StrikeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/InMemoryDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/KeyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/ValueType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/objects/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/testMAp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/Main_Another.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/exceptions/BoardException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/mode/ConsolePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/mode/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/service/TicTacToeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/validations/GameValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/parkinglot/service/ParkingLotService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/parkinglot/service/ParkingLotService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +49,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,26 +144,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/lavakumar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/lavakumar/bowlingalley" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lavakumar.trello.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\bowlingalley" />
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar" />
-      <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\trello" />
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\tictactoe" />
+      <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\inmemorykvstore" />
+      <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\trello" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\bowlingalley\problem-statement" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lavakumar.bowlingalley.strategy" />
+      <recent name="com.lavakumar.bowlingalley.scoreboard" />
+      <recent name="com.lavakumar.bowlingalley.model" />
+      <recent name="com.lavakumar.tictactoe" />
+      <recent name="com.lavakumar.tictactoe.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.trello.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lavakumar.inmemorykvstore.Driver" />
       <module name="MachineCodingRound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lavakumar.trello.*" />
+          <option name="PATTERN" value="com.lavakumar.inmemorykvstore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.snakeandladder.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lavakumar.bowlingalley.Main" />
       <module name="MachineCodingRound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lavakumar.snakeandladder.*" />
+          <option name="PATTERN" value="com.lavakumar.bowlingalley.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,32 +220,6 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.tictactoe.Main" />
-      <module name="MachineCodingRound" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lavakumar.tictactoe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.snakeandladder.Main" />
-      <module name="MachineCodingRound" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lavakumar.snakeandladder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lavakumar.splitwise.Main" />
       <module name="MachineCodingRound" />
       <extension name="coverage">
@@ -215,13 +232,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testMAp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lavakumar.inmemorykvstore.testMAp" />
+      <module name="MachineCodingRound" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lavakumar.inmemorykvstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.testMAp" />
+        <item itemvalue="Application.Driver" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -445,14 +475,33 @@
           <line>21</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/InMemoryDB.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/testMAp.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/testMAp.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/testMAp.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="expensesMap.entrySet().toArray()[0]" />
-        <watch expression="parkingLot" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
