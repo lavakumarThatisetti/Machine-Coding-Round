@@ -70,7 +70,7 @@ public class PlayTicTacToe {
                 winRight =false;
             }
         }
-        return !winRow && !winLeft && !winRight && !winCol;
+        return winRow || winColm || winLeft || winRight;
     }
 
     private boolean checkRowWise(int row,int col,String symbol){
