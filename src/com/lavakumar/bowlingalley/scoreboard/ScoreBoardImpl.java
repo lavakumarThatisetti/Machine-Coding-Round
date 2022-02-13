@@ -24,27 +24,27 @@ public class ScoreBoardImpl implements ScoreBoard {
     @Override
     public Integer score(){
         int totalScore = 0;
-        int frame = 0;
-        for (int i = 0; i < 10; i++) {
-            if (isStrike(frame)) {
-                totalScore  += 10 + BonusFactory.getStrategy(Bonus.STRIKE).bonus();
-                frame += 2;
-            } else if (isSpare(frame)) {
-                totalScore  += 10 + BonusFactory.getStrategy(Bonus.SPARE).bonus();
-                frame += 2;
+        int set = 0;
+        for (int i = 0; i < AppConstants.TOTAL_SETS; i++) {
+            if (isStrike(set)) {
+                totalScore  += AppConstants.TOTAL_PINS + BonusFactory.getStrategy(Bonus.STRIKE).bonus();
+                set += 2;
+            } else if (isSpare(set)) {
+                totalScore  += AppConstants.TOTAL_PINS + BonusFactory.getStrategy(Bonus.SPARE).bonus();
+                set += 2;
             } else {
-                totalScore  += rolls[frame] + rolls[frame + 1];
-                frame += 2;
+                totalScore  += rolls[set] + rolls[set + 1];
+                set += 2;
             }
         }
-        return totalScore + rolls[frame];
+        return totalScore + rolls[set];
     }
 
-    private boolean isStrike(int frame) {
-        return rolls[frame] == 10;
+    private boolean isStrike(int set) {
+        return rolls[set] == 10;
     }
 
-    private boolean isSpare(int frame) {
-        return rolls[frame] + rolls[frame + 1] == 10;
+    private boolean isSpare(int set) {
+        return rolls[set] + rolls[set + 1] == 10;
     }
 }

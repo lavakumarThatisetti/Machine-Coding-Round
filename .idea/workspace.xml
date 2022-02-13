@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/constants/AppConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/BowlingGameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/BowlingGameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/BowlingGameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/BowlingGameService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/constants/AppConstants.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/constants/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/constants/AppConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/service/PlayTicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/service/PlayTicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,8 +478,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="76" />
+          <line>27</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
