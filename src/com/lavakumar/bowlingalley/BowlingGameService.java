@@ -1,6 +1,7 @@
 package com.lavakumar.bowlingalley;
 
 import com.lavakumar.bowlingalley.model.Player;
+import com.lavakumar.bowlingalley.constants.AppConstants;
 
 import java.util.List;
 
@@ -8,7 +9,6 @@ public class BowlingGameService {
 
     List<Player> players;
     Player winnerPlayer;
-    public static final int MAX_ROLLS = 21;
 
     public BowlingGameService(List<Player> players) {
         this.players = players;
@@ -17,8 +17,8 @@ public class BowlingGameService {
     public void startGame() {
         int maxScore = 0;
         for(Player player: players){
-            int standingPins = 10;
-            for (int index = 0; index < MAX_ROLLS; index++) {
+            int standingPins = AppConstants.TOTAL_PINS;
+            for (int index = 0; index < AppConstants.MAX_ROLLS; index++) {
                 int numPinDown = takeShot(standingPins);
                 standingPins -= numPinDown;
                 // Every Frame
@@ -42,7 +42,7 @@ public class BowlingGameService {
     }
 
     private int refillThePins() {
-        return 10;
+        return AppConstants.TOTAL_PINS;
     }
 
     public String getWinner() {

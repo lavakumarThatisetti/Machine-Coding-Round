@@ -2,24 +2,26 @@ package com.lavakumar.bowlingalley.scoreboard;
 
 import com.lavakumar.bowlingalley.factory.BonusFactory;
 import com.lavakumar.bowlingalley.model.Bonus;
+import com.lavakumar.bowlingalley.constants.AppConstants;
 
 public class ScoreBoardImpl implements ScoreBoard {
 
     private final int[] rolls;
     private Integer currentRoll = 0;
-    public static final int MAX_ROLLS = 21;
+
     public ScoreBoardImpl(){
-        rolls = new int[MAX_ROLLS];
+        rolls = new int[AppConstants.MAX_ROLLS];
     }
 
     @Override
     public void roll(Integer noOfPins){
-        if (currentRoll == MAX_ROLLS - 1 && (rolls[currentRoll - 1] + rolls[currentRoll - 2] > 9)) {
+        if (currentRoll == AppConstants.MAX_ROLLS - 1 && (rolls[currentRoll - 1] + rolls[currentRoll - 2] >= 10)) {
             return;
         }
         rolls[currentRoll++] = noOfPins;
     }
 
+    @Override
     public Integer score(){
         int totalScore = 0;
         int frame = 0;

@@ -2,33 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/BowlingGameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/factory/BonusFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/model/Bonus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/problem-statement/Multiplayer Bowling Alley.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/strategy/DefaultStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/strategy/SparseStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/strategy/StrikeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/InMemoryDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/KeyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/ValueType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/objects/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/testMAp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/Main_Another.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/exceptions/BoardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/mode/ConsolePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/mode/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/service/TicTacToeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/validations/GameValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/constants/AppConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/parkinglot/service/ParkingLotService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/parkinglot/service/ParkingLotService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/BowlingGameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/BowlingGameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/service/PlayTicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/tictactoe/service/PlayTicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -497,7 +477,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java</url>
-          <line>30</line>
+          <line>32</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>

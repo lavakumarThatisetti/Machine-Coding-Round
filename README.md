@@ -27,7 +27,7 @@
    * Code : [Github Code](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/trello)
    * Video Tutorial: Yet To Update
 ### FLIPMED
-   * Problem Statment: https://github.com/lavakumarThatisetti/FLIPMED_Interview/blob/master/ProblemStatment.md
+   * Problem Statement: https://github.com/lavakumarThatisetti/FLIPMED_Interview/blob/master/ProblemStatment.md
    * code: https://github.com/lavakumarThatisetti/FLIPMED_Interview
    * Video:  https://www.youtube.com/watch?v=o9tOndHPxs8
 ### Bowling Alley
