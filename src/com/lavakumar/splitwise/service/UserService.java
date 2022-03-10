@@ -1,18 +1,22 @@
 package com.lavakumar.splitwise.service;
 
 import com.lavakumar.splitwise.model.User;
+import com.lavakumar.splitwise.repository.ExpenseRepository;
 
 import java.util.List;
 import java.util.Optional;
 
 public class UserService {
-    List<User> users;
+    ExpenseRepository expenseRepository;
 
-    public UserService(List<User> users){
-        this.users = users;
+    public UserService(ExpenseRepository expenseRepository){
+        this.expenseRepository = expenseRepository;
     }
 
-    public Optional<User> getUser(String userName){
-        return users.stream().filter(u->u.getUserName().equals(userName)).findFirst();
+    public void addUser(User user){
+        expenseRepository.addUser(user);
+    }
+    public User getUser(String userName){
+        return expenseRepository.getUser(userName);
     }
 }

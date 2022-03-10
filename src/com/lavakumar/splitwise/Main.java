@@ -3,7 +3,14 @@ package com.lavakumar.splitwise;
 import com.lavakumar.splitwise.model.ExpenseType;
 import com.lavakumar.splitwise.model.Type;
 import com.lavakumar.splitwise.model.User;
-import com.lavakumar.splitwise.service.ShareExpenses;
+import com.lavakumar.splitwise.model.expense.ExpenseData;
+import com.lavakumar.splitwise.model.split.EqualSplit;
+import com.lavakumar.splitwise.model.split.ExactSplit;
+import com.lavakumar.splitwise.model.split.PercentSplit;
+import com.lavakumar.splitwise.model.split.Split;
+import com.lavakumar.splitwise.repository.ExpenseRepository;
+import com.lavakumar.splitwise.service.ExpenseService;
+import com.lavakumar.splitwise.service.SplitWiseService;
 import com.lavakumar.splitwise.service.UserService;
 
 import java.util.*;
@@ -15,69 +22,69 @@ public class Main {
         User user2 = new User(2, "u2","u2@gmail.com","9999999999");
         User user3 = new User(3, "u3","u3@gmail.com","9898989899");
         User user4 = new User(4, "u4","u4@gmail.com","8976478292");
-        List<User> users = new ArrayList<>(Arrays.asList(user1,user2,user3,user4));
 
         // Adding Expenses
-
-        ShareExpenses shareExpenses = new ShareExpenses(users);
-        UserService userService = new UserService(users);
+        ExpenseRepository expenseRepository = new ExpenseRepository();
+        UserService userService = new UserService(expenseRepository);
+        userService.addUser(user1);
+        userService.addUser(user2);
+        userService.addUser(user3);
+        userService.addUser(user4);
+        SplitWiseService service = new SplitWiseService(expenseRepository);
 
         while (true) {
             Scanner scan = new Scanner(System.in);
-            Type type = Type.of(scan.next());
+            String[] commands = scan.nextLine().split(" ");
+            Type type = Type.of(commands[0]);
             switch (type){
                 case EXPENSE:
-                    String user = scan.next();
-                    int amountSpend = scan.nextInt();
-                    double totalMembers = scan.nextDouble();
-                    List<User> owedUsers = new ArrayList<>();
-                    for(int i=0;i< totalMembers;i++){
-                        owedUsers.add(userService.getUser(scan.next()).get());
-                    }
-                    ExpenseType expense = ExpenseType.of(scan.next());
+                    String userName = commands[1];
+                    double amountSpend = Double.parseDouble(commands[2]);
+                    int totalMembers = Integer.parseInt(commands[3]);
+                    List<Split> splits = new ArrayList<>();
+                    int expenseIndex = 3 + totalMembers + 1;
+                    ExpenseType expense = ExpenseType.of(commands[expenseIndex]);
                     switch (expense){
                         case EQUAL:
-                            shareExpenses.splitEqualExpenses(
-                                    user,amountSpend,owedUsers
+                            for (int i = 0; i < totalMembers; i++) {
+                                splits.add(new EqualSplit(userService.getUser(commands[4+i])));
+                            }
+                            service.addExpense(
+                                    ExpenseType.EQUAL, amountSpend, userName, splits, new ExpenseData("GoaFlight")
                             );
                             break;
                         case EXACT:
-                            HashMap<User,Double> owedAmountMap = new HashMap<>();
-                            double sum = 0;
-                            for(int i=0;i<totalMembers;i++){
-                                double amount = scan.nextDouble();
-                                sum+=amount;
-                                owedAmountMap.put(owedUsers.get(i),amount);
+                            for (int i = 0; i < totalMembers; i++) {
+                                splits.add(
+                                        new ExactSplit(
+                                                userService.getUser(commands[4+i]),
+                                                Double.parseDouble(commands[expenseIndex+i+1]))
+                                );
                             }
-                            if(sum!=amountSpend){
-                                System.out.println("Sum not Matches to actual split amount");
-                                break;
-                            }
-                            shareExpenses.splitExactExpenses(
-                                    user,amountSpend,owedUsers,owedAmountMap
+                            service.addExpense(
+                                    ExpenseType.EXACT, amountSpend, userName, splits, new ExpenseData("CabTickets")
                             );
+
                             break;
                         case PERCENT:
-                            HashMap<User,Integer> owedPercentageMap = new HashMap<>();
-                            int per =0;
-                            for(int i=0;i<totalMembers;i++){
-                                int amount = scan.nextInt();
-                                per+=amount;
-                                owedPercentageMap.put(owedUsers.get(i),amount);
+                            for (int i = 0; i < totalMembers; i++) {
+                                splits.add(
+                                        new PercentSplit(
+                                                userService.getUser(commands[4+i]),
+                                                Double.parseDouble(commands[expenseIndex+i+1]))
+                                );
                             }
-                            if(per!=100){
-                                System.out.println("Sum Percentage not Matches to 100");
-                                break;
-                            }
-                            shareExpenses.splitPercentageExpenses(
-                                    user,amountSpend,owedUsers,owedPercentageMap
+                            service.addExpense(
+                                    ExpenseType.PERCENT, amountSpend, userName, splits, new ExpenseData("Dinner")
                             );
                             break;
                     }
                     break;
                 case SHOW:
-                    String userName = scan.nextLine();
-                    shareExpenses.showExpenses(userName);
+                    if(commands.length == 1)
+                        service.showBalances();
+                    else
+                        service.showBalance(commands[1]);
                     break;
                 case QUIT:
                      System.out.println("Quiting...");

@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/expense/EqualExpense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/expense/ExactExpense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/expense/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/expense/ExpenseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/expense/PercentageExpense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/split/EqualSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/split/ExactSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/split/PercentSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/split/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/repository/ExpenseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/service/ExpenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/service/SplitWiseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/BowlingGameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/BowlingGameService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/constants/AppConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/constants/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/constants/AppConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/bowlingalley/scoreboard/ScoreBoardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/splitwise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/splitwise/model/OwedUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/splitwise/service/ShareExpenses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/splitwise/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/splitwise/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +135,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/lavakumar/bowlingalley" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -140,14 +150,14 @@
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\bowlingalley\problem-statement" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lavakumar.splitwise.model.expense" />
+      <recent name="com.lavakumar.splitwise.model" />
       <recent name="com.lavakumar.bowlingalley.strategy" />
       <recent name="com.lavakumar.bowlingalley.scoreboard" />
       <recent name="com.lavakumar.bowlingalley.model" />
-      <recent name="com.lavakumar.tictactoe" />
-      <recent name="com.lavakumar.tictactoe.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lavakumar.inmemorykvstore.Driver" />
       <module name="MachineCodingRound" />
@@ -228,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.testMAp" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -377,21 +387,6 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lavakumar/splitwise/Main.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lavakumar/splitwise/service/ShareExpenses.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lavakumar/splitwise/service/ShareExpenses.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lavakumar/trello/service/impl/BoardServcieImpl.java</url>
           <line>63</line>
           <option name="timeStamp" value="45" />
@@ -410,21 +405,6 @@
           <url>file://$PROJECT_DIR$/src/com/lavakumar/trello/service/impl/BoardServcieImpl.java</url>
           <line>72</line>
           <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lavakumar/splitwise/service/ShareExpenses.java</url>
-          <line>151</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lavakumar/splitwise/service/ShareExpenses.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lavakumar/splitwise/service/ShareExpenses.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lavakumar/parkinglot/service/ParkingLotService.java</url>
