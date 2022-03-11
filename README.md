@@ -9,7 +9,8 @@
 ### Split Wise
    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/splitwise-problem-0kp2yneec2q2)
    * Code : [Github Split Wise](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/splitwise)
-   * Video Tutorial: [Split Wise](https://www.youtube.com/watch?v=na3DQv8ZAD8)
+   * Old Video Tutorial: [Split Wise Old](https://www.youtube.com/watch?v=na3DQv8ZAD8) 
+   * Video Tutorial: [Split Wise New](https://youtu.be/MuI5MPWbnbI)
 ### Parking Lot
    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/design-parking-lot-qm6hwq4wkhp8)
    * Code : [Github Parking Lot](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/parkinglot) 
