@@ -35,7 +35,6 @@ public class Main {
             System.out.println(" client1 "+Thread.currentThread().getName() + "--" + request.serveRequest("client1"));
         };
      //   scheduledExecutor.scheduleAtFixedRate( r,0,500, TimeUnit.MILLISECONDS);
-
         executor.shutdown();
 
         try {
