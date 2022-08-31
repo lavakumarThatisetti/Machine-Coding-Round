@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/exception/UserPostException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/model/Friends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/model/UserRelations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/repository/UserPostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/service/NewsFeedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/service/UserRelationsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/designfacebook/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/InsideRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/OutsideRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/model/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/model/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/model/ElevatorCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/model/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/model/RequestType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/model/buttonpanel/ButtonPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/model/buttonpanel/InsideElevatorButtonPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/model/buttonpanel/OutsideElevatorButtonPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/repository/ElevatorSystemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/service/Dispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/strategy/IElevatorAssignmentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/elevator/util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/Router.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/RouterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/RateLimiterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/ThrotleRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/ThrotleRulesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/UserIdentificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/algorthims/LeakyBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/algorthims/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/algorthims/SlidingWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/algorthims/TokenBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/model/expense/PercentageExpense.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/model/expense/PercentageExpense.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/repository/ExpenseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/repository/ExpenseRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/service/ExpenseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/service/ExpenseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/service/SplitWiseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/splitwise/service/SplitWiseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/tokenbucket/TestTokenbucket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/tokenbucket/TokenBucket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/tokenbucket/TestTokenbucket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/tokenbucket/TokenBucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

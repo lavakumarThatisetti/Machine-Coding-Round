@@ -20,21 +20,21 @@ public class Main {
 
         Long startTime = System.currentTimeMillis();
 
-        for (int i = 0; i < 12; i++) {
-            executor.execute(() -> {
-                System.out.println(" client1 "+Thread.currentThread().getName() + "--" + request.serveRequest("client1"));
-          //      System.out.println(" client2 "+Thread.currentThread().getName() + "--" + handleRequest.serveRequest("client2"));
-                try {
-                    Thread.sleep(10);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            });
-        }
+//        for (int i = 0; i < 12; i++) {
+//            executor.execute(() -> {
+//                System.out.println(" client1 "+Thread.currentThread().getName() + "--" + request.serveRequest("client1"));
+//          //      System.out.println(" client2 "+Thread.currentThread().getName() + "--" + handleRequest.serveRequest("client2"));
+//                try {
+//                    Thread.sleep(10);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//            });
+//        }
         Runnable r = () -> {
             System.out.println(" client1 "+Thread.currentThread().getName() + "--" + request.serveRequest("client1"));
         };
-     //   scheduledExecutor.scheduleAtFixedRate( r,0,500, TimeUnit.MILLISECONDS);
+        scheduledExecutor.scheduleAtFixedRate( r,0,50, TimeUnit.MILLISECONDS);
         executor.shutdown();
 
         try {

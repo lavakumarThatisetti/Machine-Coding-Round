@@ -34,6 +34,10 @@
 ### Bowling Alley
    * Problem Statement: https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/bowlingalley/problem-statement
    * code : https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/bowlingalley
-   * Video: Yet to update
+   * Video: https://www.youtube.com/watch?v=ExF4ZbJkokA
+### Rate Limiter
+   * Problem Statement: Design and Develop Rate Limiter 
+   * code : https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/ratelimiter
+   * Video: https://youtu.be/82mlm8Ob3pI
 
 _Will Come More..._ 
