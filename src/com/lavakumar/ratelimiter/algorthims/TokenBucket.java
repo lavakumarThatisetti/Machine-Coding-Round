@@ -1,23 +1,28 @@
-package com.lavakumar.tokenbucket;
+package com.lavakumar.ratelimiter.algorthims;
 
-public class TokenBucket {
+
+/*
+   10  , 10  , <=10,
+*/
+public class TokenBucket implements RateLimiter {
     private final long maxBucketSize;
     private final long refillRate;
     private double currentBucketSize;
     private long lastRefillTimeStamp;
 
-    public TokenBucket(long maxBucketSize,long refillRate){
+    public TokenBucket(long maxBucketSize, long refillRate){
         this.maxBucketSize = maxBucketSize;
         this.refillRate = refillRate;
         currentBucketSize = maxBucketSize;
         lastRefillTimeStamp = System.nanoTime();
     }
 
-    public synchronized boolean allowRequest(int tokens){
+    @Override
+    public synchronized boolean allowRequest(){
         refill();
-        if(currentBucketSize>tokens){
-            currentBucketSize-=tokens;
-            System.out.println("current bucket Size: "+currentBucketSize);
+        if(currentBucketSize>=1){
+            currentBucketSize-=1;
+          //  System.out.print("  current bucket Size: "+currentBucketSize);
             return true;
         }
         return false;
@@ -25,10 +30,10 @@ public class TokenBucket {
 
     private void refill(){
         long now = System.nanoTime();
-        double tokensToAdd  = (now-lastRefillTimeStamp)/1e9;
-        System.out.println("before refilled : "+currentBucketSize);
+        double tokensToAdd  = (now-lastRefillTimeStamp)*refillRate/1e9;
+        System.out.print("before refilled : "+currentBucketSize+"  ");
         currentBucketSize = Math.min(currentBucketSize+tokensToAdd, maxBucketSize);
-        System.out.println("refilled : "+currentBucketSize);
+        System.out.print("After refilled : "+currentBucketSize);
         lastRefillTimeStamp = now;
     }
 
