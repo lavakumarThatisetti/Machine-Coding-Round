@@ -19,8 +19,8 @@ Book 1:1 for Interviews and Mentorship: https://topmate.io/lavakumar_thatisetti
    * Video Tutorial: [Parking Lot](https://www.youtube.com/watch?v=aQf-ovnR8go)
 ### Tic-Tac-Toe
    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/design-tic-tac-toe-smyfi9x064ry)
-   * Code : In this Repository
-   * Video Tutorial: Yet To Updated
+   * Code: In this Repository
+   * Video Tutorial: [Video Explaination](https://www.youtube.com/watch?v=Y3eXlX7uSNM&list=PLyjE_CyqGikpWc4IGmMtKZZit_YxMkJKL&index=5)
 ### Token Bucket 
    * Problem Statement: Yet To Updated 
    * Code : [Github Token Bucket](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/tokenbucket)
@@ -41,5 +41,9 @@ Book 1:1 for Interviews and Mentorship: https://topmate.io/lavakumar_thatisetti
    * Problem Statement: Design and Develop Rate Limiter 
    * code : https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/ratelimiter
    * Video: https://youtu.be/82mlm8Ob3pI
+
+### All Design Patterns Problems and Solutions
+  * Code repo: https://github.com/lavakumarThatisetti/GOFDesignPatterns/
+  * Video: https://www.youtube.com/watch?v=-0fW6ZHolYQ&list=PLyjE_CyqGikoF0dpijEH7RBzZ6KGhRxkK&pp=gAQBiAQB
 
 _Will Come More..._ 
