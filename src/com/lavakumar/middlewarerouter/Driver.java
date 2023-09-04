@@ -1,5 +1,8 @@
 package com.lavakumar.middlewarerouter;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Driver {
     public static void main(String[] args) {
         Router router = new RouterImpl();
@@ -12,8 +15,8 @@ public class Driver {
         System.out.println(router.route("/bar/abc/dd")); //-> null
 
         router.withRoute("/bar/abc/dd", "dd");
-        router.withRoute("/bar/abc/cde/dd", "ee");
-        System.out.println(router.route("/bar/abc/dd"));// -> "dd"
-        System.out.println(router.route("/bar/*/dd")); // -> "dd"
+        router.withRoute("/bar/abc1/cde/dd", "ee");
+        System.out.println(router.route("/bar/*/dd"));// -> "dd"
+        System.out.println(router.route("/bar/*/cde/dd")); // -> "ee"
     }
 }

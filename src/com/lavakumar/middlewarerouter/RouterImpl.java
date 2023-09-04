@@ -3,6 +3,8 @@ package com.lavakumar.middlewarerouter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class RouterImpl implements Router {
 
@@ -22,8 +24,6 @@ public class RouterImpl implements Router {
 
     @Override
     public void withRoute(String path, String result) {
-       // if(path.length()<=1) return;
-
         String[] paths = path.split("/");
         insert(paths, result);
     }
@@ -60,7 +60,10 @@ public class RouterImpl implements Router {
             if(Objects.equals(paths[i], "*")){
                 for(Map.Entry<String,TrieNode> entry: current.children.entrySet()){
                     if(entry.getKey()!=null){
-                        return searchHelper(paths,entry.getValue(), i+1);
+                         TrieNode wildcard = searchHelper(paths,entry.getValue(), i+1);
+                         if(wildcard != null){
+                             return wildcard;
+                         }
                     }
                 }
             }
@@ -72,7 +75,6 @@ public class RouterImpl implements Router {
         }
         return current;
     }
-
 
 
 }
