@@ -16,7 +16,7 @@ public class Main {
 
         ExecutorService executor = Executors.newFixedThreadPool(1);
 
-        ScheduledExecutorService scheduledExecutor  =  Executors.newScheduledThreadPool(5);
+        ScheduledExecutorService scheduledExecutor = Executors.newScheduledThreadPool(5);
 
         Long startTime = System.currentTimeMillis();
 
@@ -32,9 +32,9 @@ public class Main {
 //            });
 //        }
         Runnable r = () -> {
-            System.out.println(" client1 "+Thread.currentThread().getName() + "--" + request.serveRequest("client1"));
+            System.out.println(" client1 " + Thread.currentThread().getName() + "--" + request.serveRequest("client1"));
         };
-        scheduledExecutor.scheduleAtFixedRate( r,0,50, TimeUnit.MILLISECONDS);
+        scheduledExecutor.scheduleAtFixedRate(r, 0, 50, TimeUnit.MILLISECONDS);
         executor.shutdown();
 
         try {

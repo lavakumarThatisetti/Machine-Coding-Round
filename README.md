@@ -8,6 +8,10 @@ Book 1:1 for Interviews and Mentorship: https://topmate.io/lavakumar_thatisetti
    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/snake-and-ladder-problem-zgtac9lxwntg)
    * Code : [Github Snake and Ladder](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/snakeandladder)
    * Video Tutorial: [Snake and Ladder](https://www.youtube.com/watch?v=na3DQv8ZAD8)
+### Snake and Ladder Optimal
+    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/snake-and-ladder-problem-zgtac9lxwntg)
+    * Code : [Github Snake and Ladder](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/snakeandladderoptimal)
+    * Video Tutorial: [Snake and Ladder Optimal](https://www.youtube.com/watch?v=VaHMJIBFeW4)
 ### Split Wise
    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/splitwise-problem-0kp2yneec2q2)
    * Code : [Github Split Wise](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/splitwise)

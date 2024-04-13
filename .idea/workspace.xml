@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/middlewarerouter/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/middlewarerouter/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/middlewarerouter/RouterImpl$TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/middlewarerouter/RouterImpl$TrieNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/middlewarerouter/RouterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/middlewarerouter/RouterImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/RouterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/RouterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/ratelimiter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +87,12 @@
       </ProjectWorkspaceSettings>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-18" />
     <option name="y" value="-27" />
@@ -120,13 +125,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/lavakumar/bowlingalley" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/91830/IdeaProjects/low-level-design-messaging-queue-pub-sub-main/pom.xml"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\bowlingalley" />
@@ -549,12 +556,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/RouterImpl.java</url>
           <line>57</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lavakumar/middlewarerouter/RouterImpl.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="106" />
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
