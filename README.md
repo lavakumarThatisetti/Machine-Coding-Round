@@ -45,6 +45,10 @@ Book 1:1 for Interviews and Mentorship: https://topmate.io/lavakumar_thatisetti
    * Problem Statement: Design and Develop Rate Limiter 
    * code : https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/ratelimiter
    * Video: https://youtu.be/82mlm8Ob3pI
+### Key Value Store Like Redis
+  * Problem Statement: Design an In Memory Key value store
+  * code : https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/inmemorykvstore
+  * Video: soon
 
 ### All Design Patterns Problems and Solutions
   * Code repo: https://github.com/lavakumarThatisetti/GOFDesignPatterns/

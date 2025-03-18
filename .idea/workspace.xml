@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/KeyValueStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/ValueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/problem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/inmemorykvstore/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/inmemorykvstore/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/inmemorykvstore/InMemoryDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/inmemorykvstore/KeyType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/inmemorykvstore/ValueType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/inmemorykvstore/objects/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/inmemorykvstore/testMAp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/InMemoryDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/KeyType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/ValueType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/objects/Pair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/inmemorykvstore/testMAp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
