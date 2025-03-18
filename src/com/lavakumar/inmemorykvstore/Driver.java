@@ -1,59 +1,39 @@
 package com.lavakumar.inmemorykvstore;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Driver {
-
-
     public static void main(String[] args) {
 
-        try {
-            InMemoryDB<String, Map<String, Object>> inMemoryDB = new InMemoryDB<>();
+        KeyValueStore keyValueStore = new KeyValueStore();
 
-            // put sde_bootcamp title SDE-Bootcamp price 30000.00 enrolled false estimated_time 30
-            Map<String, Object> value = new HashMap<>();
-            value.put("title", "SDE-BootCamp");
-            value.put("price", 30000.00);
-            value.put("enrolled", false);
-            value.put("estimated_time", 30);
-            inMemoryDB.put("sde_bootcamp", value);
+        List<Pair<String, String>> dsaBootCamps = new ArrayList<>();
+        dsaBootCamps.add(new Pair<>("title", "DSA-Bootcamp"));
+        dsaBootCamps.add(new Pair<>("price", "10000.00"));
+        dsaBootCamps.add(new Pair<>("enrolled", "true"));
+        dsaBootCamps.add(new Pair<>("estimated_time", "30"));
 
-            //get sde_bootcamp
-            System.out.println(inMemoryDB.get("sde_bootcamp"));
-
-            //put sde_kickstart title SDE-Kickstart price 4000 enrolled true estimated_time 8
-            value = new HashMap<>();
-            value.put("title", "SDE-Kickstart");
-            value.put("price", 4000);
-            value.put("enrolled", true);
-            value.put("estimated_time", 8);
-            inMemoryDB.put("sde_kickstart", value);
-            //get sde_kickstart
-            // Data Type Error
-            System.out.println(inMemoryDB.get("sde_kickstart"));
-
-            //put sde_kickstart title SDE-Kickstart price 4000.00 enrolled true estimated_time 8
-            value = new HashMap<>();
-            value.put("title", "SDE-Kickstart");
-            value.put("price", 4000.00);
-            value.put("enrolled", true);
-            value.put("estimated_time", 8);
-            inMemoryDB.put("sde_kickstart", value);
-
-            //get sde_kickstart
-            System.out.println(inMemoryDB.get("sde_kickstart"));
+        keyValueStore.put("dsa_bootcamp", dsaBootCamps);
 
 
+        System.out.println(keyValueStore.get("dsa_bootcamp"));
+
+        System.out.println(keyValueStore.keys());
+
+        System.out.println(keyValueStore.search("estimated_time", "30"));
+
+        List<Pair<String, String>> sdeBootCamps = new ArrayList<>();
+        sdeBootCamps.add(new Pair<>("title", "SDE-Bootcamp"));
+        sdeBootCamps.add(new Pair<>("price", "10000.00"));
+        sdeBootCamps.add(new Pair<>("enrolled", "false"));
+        sdeBootCamps.add(new Pair<>("estimated_time", "30"));
+
+        keyValueStore.put("sde_bootcamp", sdeBootCamps);
 
 
+        System.out.println(keyValueStore.keys());
 
-
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-        }
+        System.out.println(keyValueStore.search("estimated_time", "30"));
     }
-
 }
-
-
