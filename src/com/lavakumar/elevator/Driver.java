@@ -1,62 +1,39 @@
 package com.lavakumar.elevator;
 
 import com.lavakumar.elevator.model.Direction;
-import com.lavakumar.elevator.model.Door;
-import com.lavakumar.elevator.model.ElevatorCar;
-import com.lavakumar.elevator.model.Floor;
-import com.lavakumar.elevator.model.buttonpanel.InsideElevatorButtonPanel;
-import com.lavakumar.elevator.repository.ElevatorSystemRepository;
-import com.lavakumar.elevator.service.Dispatcher;
+import com.lavakumar.elevator.model.OutsideRequest;
+import com.lavakumar.elevator.strategy.DirectionalBatchingStrategy;
+import com.lavakumar.elevator.strategy.NearestElevatorStrategy;
 
 public class Driver {
-    public static void main(String[] args) {
-        ElevatorSystemRepository elevatorSystemRepository = new ElevatorSystemRepository();
-        Dispatcher dispatcher = new Dispatcher(elevatorSystemRepository);
+    public static void main(String[] args) throws InterruptedException {
+        ElevatorSystemController controller = new ElevatorSystemController(2, 0, 10, new NearestElevatorStrategy()); // fewer elevators = easier to simulate busy state
 
-        ElevatorCar elevator1 = new ElevatorCar(
-                1, new Floor(0),new Door(false), new InsideElevatorButtonPanel(dispatcher)
-        );
-        ElevatorCar elevator2 = new ElevatorCar(
-                2, new Floor(0),new Door(false), new InsideElevatorButtonPanel(dispatcher)
-        );
-        ElevatorCar elevator3 = new ElevatorCar(
-                3, new Floor(1),new Door(false), new InsideElevatorButtonPanel(dispatcher)
-        );
-        ElevatorCar elevator4 = new ElevatorCar(
-                4, new Floor(2),new Door(false), new InsideElevatorButtonPanel(dispatcher)
-        );
+        // Step 1: Initial load - make all elevators busy
+        controller.handleExternalRequest(new OutsideRequest(1, Direction.UP));  // elevator needs to go all the way up
+        controller.handleExternalRequest(new OutsideRequest(2, Direction.UP));
+        controller.handleExternalRequest(new OutsideRequest(3, Direction.UP));
 
-        elevatorSystemRepository.addElevator(elevator1);
-        elevatorSystemRepository.addElevator(elevator2);
-        elevatorSystemRepository.addElevator(elevator3);
-        elevatorSystemRepository.addElevator(elevator4);
+        // Step 2: Add internal destinations to keep them busy
+        controller.getElevators().get(0).addInternalRequest(0);
+        controller.getElevators().get(1).addInternalRequest(1);
 
-        // Outside Request
-        Request upRequest1 = new OutsideRequest(4 , Direction.UP);
-        Request upRequest2 = new OutsideRequest( 3 , Direction.UP);
-        Request downRequest1 = new OutsideRequest( 0 , Direction.DOWN);
-        Request downRequest2 = new OutsideRequest( 0 , Direction.DOWN);
+        // Step 3: Submit a new request that will be forced into waiting queue
+        controller.handleExternalRequest(new OutsideRequest(2, Direction.UP)); // all elevators already busy
 
+        // Simulation loop to demonstrate queueing and retry
+        for (int tick = 1; tick <= 20; tick++) {
+            System.out.println("\n===== Tick " + tick + " =====");
+            controller.stepSimulation();
+            controller.printSystemStatus();
 
-        Floor floor0 = new Floor(0,dispatcher);
-        Floor floor1 = new Floor(1,dispatcher);
-        Floor floor3 = new Floor(3,dispatcher);
-        Floor floor4 = new Floor(4,dispatcher);
+            // Step 4 (Optional): Inject a delayed request mid-simulation
+            if (tick == 5) {
+                System.out.println("Injecting new request at tick 5 (floor 3)");
+                controller.handleExternalRequest(new OutsideRequest(3, Direction.UP));
+            }
 
-        floor0.callElevator(upRequest1);
-        floor1.callElevator(upRequest2);
-        floor3.callElevator(downRequest1);
-        floor4.callElevator(downRequest2);
-
-        // Inside Request
-        InsideRequest upRequest3 = new InsideRequest( 4 , Direction.UP);
-        InsideRequest upRequest4 = new InsideRequest( 4 , Direction.UP);
-        InsideRequest downRequest3 = new InsideRequest( 0, Direction.DOWN);
-        InsideRequest downRequest4 = new InsideRequest( 0, Direction.DOWN);
-
-        dispatcher.processElevatorRequest(upRequest3);
-        dispatcher.processElevatorRequest(upRequest4);
-        dispatcher.processElevatorRequest(downRequest3);
-        dispatcher.processElevatorRequest(downRequest4);
+            Thread.sleep(1000); // pause for clarity
+        }
     }
 }
