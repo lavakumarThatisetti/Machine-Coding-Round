@@ -2,9 +2,7 @@ package com.lavakumar.designfacebook.service;
 
 import com.lavakumar.designfacebook.model.Post;
 import com.lavakumar.designfacebook.model.UserRelations;
-import com.lavakumar.designfacebook.repository.PostRepository;
 import com.lavakumar.designfacebook.repository.UserPostRepository;
-import javafx.geometry.Pos;
 
 import java.util.Collection;
 import java.util.Collections;

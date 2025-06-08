@@ -1,7 +1,6 @@
 package com.lavakumar.elevator;
 
 import com.lavakumar.elevator.model.Elevator;
-import com.lavakumar.elevator.model.ElevatorRequest;
 import com.lavakumar.elevator.model.OutsideRequest;
 import com.lavakumar.elevator.service.RequestScheduler;
 import com.lavakumar.elevator.strategy.ElevatorAssignmentStrategy;
