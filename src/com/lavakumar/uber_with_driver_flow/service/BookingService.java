@@ -17,9 +17,12 @@ public class BookingService {
     private final CabService cabService;
     private final PricingStrategy pricingStrategy;
 
-    public BookingService(CabService cabService, PricingStrategy pricingStrategy) {
+    private final DriverService driverService;
+
+    public BookingService(CabService cabService, PricingStrategy pricingStrategy, DriverService driverService) {
         this.cabService = cabService;
         this.pricingStrategy = pricingStrategy;
+        this.driverService = driverService;
     }
 
     public List<VehicleFareEstimate> showAvailableVehicleTypes(Location from, Location to) {
@@ -30,6 +33,26 @@ public class BookingService {
             estimates.add(new VehicleFareEstimate(type, fare));
         }
         return estimates;
+    }
+
+    public void requestCab(Rider rider, VehicleType vehicleType, Location dropLocation) {
+        double fare = pricingStrategy.calculateFare(rider.getCurrentLocation(), dropLocation, vehicleType);
+        // Send Fare and Drop Location to the nearest Drivers to accept.
+        List<Cab> nearestAvailableCabs = cabService.findNearestAvailableCabs(rider.getCurrentLocation(), vehicleType);
+
+        // wait till drives to accept
+        for (Cab cab : nearestAvailableCabs) {
+            //Trigger Notifications
+            driverService.triggerRideAcceptance(cab.getDriverName(), fare, dropLocation);
+        }
+    }
+
+    // @AcceptListener
+    public Booking bookCabFromListener(Cab acceptedCab, Rider rider, Location dropLocation) {
+        acceptedCab.assignToRide();
+        Booking booking = new Booking(rider, acceptedCab, dropLocation, pricingStrategy);
+        booking.setStatus(BookingStatus.CREATED);
+        return booking;
     }
 
     public Booking bookCab(Rider rider, VehicleType vehicleType, Location destination) {

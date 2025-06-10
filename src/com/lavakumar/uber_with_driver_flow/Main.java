@@ -23,7 +23,7 @@ public class Main {
 
         // For demo, set demand = 5 to trigger surge
         SurgePricingStrategy pricingStrategy = new SurgePricingStrategy(5);
-        BookingService bookingService = new BookingService(cabService, pricingStrategy);
+        BookingService bookingService = new BookingService(cabService, pricingStrategy, driverService);
 
         // Register rider
         Rider rider = riderService.registerRider("r1", "Alice");
