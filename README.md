@@ -4,6 +4,16 @@ Book 1:1 for Interviews and Mentorship: https://bondin.io/lavakumar_thatisetti
 
 ## All Low-Level Design and Machine Coding Rounds Questions and Answers
 
+### Design Uber Rider Flow
+  * Problem Statement: [Problem Statement](https://github.com/lavakumarThatisetti/Machine-Coding-Round/blob/master/src/com/lavakumar/uber_rider_flow/ProblemStatement.md)
+  * Code : [Github](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/uber_rider_flow)
+  * Video Tutorial: [Uber Full Code](https://youtu.be/VkB6NDEbFsc)
+
+### Design Elevator
+  * Problem Statement: [Problem Statement](https://github.com/lavakumarThatisetti/Machine-Coding-Round/blob/master/src/com/lavakumar/uber_rider_flow/ProblemStatement.md)
+  * Code : [Github](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/elevator)
+  * Video Tutorial: [Elevator Full code](https://github.com/lavakumarThatisetti/Machine-Coding-Round/blob/master/src/com/lavakumar/elevator/ProblemStatement.md)
+
 ### Snake and Ladder
    * Problem Statement: [Problem Statement](https://workat.tech/machine-coding/practice/snake-and-ladder-problem-zgtac9lxwntg)
    * Code : [Github Snake and Ladder](https://github.com/lavakumarThatisetti/Machine-Coding-Round/tree/master/src/com/lavakumar/snakeandladder)

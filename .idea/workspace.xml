@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/uber_rider_flow/ProblemStatement.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/ProblemStatement.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/pricing/SurgePricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/pricing/SurgePricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/service/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/service/CabService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/service/CabService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/service/DriverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/uber_with_driver_flow/service/DriverService.java" afterDir="false" />
-    </list>
+    <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
