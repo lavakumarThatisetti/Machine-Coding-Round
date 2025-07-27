@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated" />
+    <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/About Kafka.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/OffsetResetStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/kafka_design_with_parittions/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/kafka_design_with_parittions/KafkaBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/kafka_design_with_parittions/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/kafka_design_with_parittions/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/kafka_design_with_parittions/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/kafka_design_with_parittions/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/kafka_design_with_parittions/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/matured_kafka_design/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/matured_kafka_design/KafkaBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/matured_kafka_design/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/matured_kafka_design/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/matured_kafka_design/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/matured_kafka_design/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/matured_kafka_design/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/ConsumerWithGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/KafkaBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/KafkaCluster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/production_grad_kafka_design/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/simple_kafka_design/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/simple_kafka_design/KafkaBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/simple_kafka_design/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/simple_kafka_design/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/simple_kafka_design/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/simple_kafka_design/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/pricing/SurgePricingStrategy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/pricing/SurgePricingStrategy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/pricing/SurgePricingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/pricing/SurgePricingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/service/BookingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/service/CabService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/service/CabService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/service/DriverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MachineCodingRound/com/lavakumar/uber_with_driver_flow/service/DriverService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +137,9 @@
     <option name="height" value="1065" />
   </component>
   <component name="ProjectId" id="1zmOm1kpHprJ5sraU3b1OTZXusL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,15 +167,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Driver2.executor": "Run",
+    "Application.KafkaLikeSystemV2Demo.executor": "Run",
+    "Application.KafkaLikeSystemV4_Cluster.executor": "Run",
+    "Application.Simulation.executor": "Run",
     "Application.com.lavakumar.elevator.Driver.executor": "Run",
     "Application.com.lavakumar.inmemorykvstore.Driver.executor": "Run",
+    "Application.com.lavakumar.kafka.kafka_design_with_parittions.Simulation.executor": "Run",
+    "Application.com.lavakumar.kafka.matured_kafka_design.Simulation.executor": "Run",
+    "Application.com.lavakumar.kafka.production_grad_kafka_design.Simulation.executor": "Run",
     "Application.com.lavakumar.uber.Main.executor": "Run",
     "Application.com.lavakumar.uber_with_driver_flow.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/91830/IdeaProjects/MachineCodingRound/src/com/lavakumar/uber_rider_flow",
+    "last_opened_file_path": "C:/Users/91830/IdeaProjects/MachineCodingRound/src/com/lavakumar/kafka",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -142,31 +190,31 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\kafka" />
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\uber_rider_flow" />
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\uber_with_driver_flow" />
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\uberWithdriverFlow" />
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar" />
-      <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\snakeandladderoptimal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\uber_with_driver_flow\model" />
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\bowlingalley\problem-statement" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lavakumar.uber_with_driver_flow.pricing" />
-      <recent name="com.lavakumar.elevator" />
-      <recent name="com.lavakumar.tokenbucket" />
-      <recent name="com.lavakumar.splitwise.model.expense" />
-      <recent name="com.lavakumar.splitwise.model" />
+      <recent name="com.lavakumar.kafka.production_grad_kafka_design" />
+      <recent name="com.lavakumar.kafka.matured_kafka_design" />
+      <recent name="com.lavakumar.kafka.kafka_design_with_parittions" />
+      <recent name="com.lavakumar.kafka.simple_kafka_design" />
+      <recent name="com.lavakumar.kafka.kafka_level_two" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.lavakumar.uber_with_driver_flow.Main">
-    <configuration name="Driver2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.elevator.Driver2" />
+  <component name="RunManager" selected="Application.com.lavakumar.kafka.production_grad_kafka_design.Simulation">
+    <configuration name="KafkaLikeSystemV4_Cluster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lavakumar.kafka.KafkaLikeSystemV4_Cluster" />
       <module name="MachineCodingRound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lavakumar.elevator.*" />
+          <option name="PATTERN" value="com.lavakumar.kafka.kafka_design_with_parittions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.uber_rider_flow.Main" />
+    <configuration name="Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lavakumar.kafka.simple_kafka_design.Simulation" />
       <module name="MachineCodingRound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lavakumar.uber_rider_flow.*" />
+          <option name="PATTERN" value="com.lavakumar.kafka.simple_kafka_design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lavakumar.elevator.Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.elevator.Driver" />
+    <configuration name="com.lavakumar.kafka.kafka_design_with_parittions.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lavakumar.kafka.kafka_design_with_parittions.Simulation" />
       <module name="MachineCodingRound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lavakumar.elevator.*" />
+          <option name="PATTERN" value="com.lavakumar.kafka.kafka_design_with_parittions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lavakumar.inmemorykvstore.Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.inmemorykvstore.Driver" />
+    <configuration name="com.lavakumar.kafka.matured_kafka_design.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lavakumar.kafka.matured_kafka_design.Simulation" />
       <module name="MachineCodingRound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lavakumar.inmemorykvstore.*" />
+          <option name="PATTERN" value="com.lavakumar.kafka.matured_kafka_design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.lavakumar.uber_with_driver_flow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lavakumar.uber_with_driver_flow.Main" />
+    <configuration name="com.lavakumar.kafka.production_grad_kafka_design.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lavakumar.kafka.production_grad_kafka_design.Simulation" />
       <module name="MachineCodingRound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lavakumar.uber_with_driver_flow.*" />
+          <option name="PATTERN" value="com.lavakumar.kafka.production_grad_kafka_design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,10 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.lavakumar.uber_with_driver_flow.Main" />
-        <item itemvalue="Application.Driver2" />
-        <item itemvalue="Application.com.lavakumar.elevator.Driver" />
-        <item itemvalue="Application.com.lavakumar.inmemorykvstore.Driver" />
+        <item itemvalue="Application.com.lavakumar.kafka.production_grad_kafka_design.Simulation" />
+        <item itemvalue="Application.com.lavakumar.kafka.matured_kafka_design.Simulation" />
+        <item itemvalue="Application.com.lavakumar.kafka.kafka_design_with_parittions.Simulation" />
+        <item itemvalue="Application.Simulation" />
+        <item itemvalue="Application.KafkaLikeSystemV4_Cluster" />
       </list>
     </recent_temporary>
   </component>
