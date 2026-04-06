@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MachineCodingRound.iml" filepath="$PROJECT_DIR$/MachineCodingRound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-management-system/order-management-system.iml" filepath="$PROJECT_DIR$/order-management-system/order-management-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uber-low-level-design/uber-low-level-design.iml" filepath="$PROJECT_DIR$/uber-low-level-design/uber-low-level-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uber-pool-booking-system/uber-pool-booking-system.iml" filepath="$PROJECT_DIR$/uber-pool-booking-system/uber-pool-booking-system.iml" />
     </modules>
   </component>
 </project>
