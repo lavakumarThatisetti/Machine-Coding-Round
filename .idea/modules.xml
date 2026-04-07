@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MachineCodingRound.iml" filepath="$PROJECT_DIR$/MachineCodingRound.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-management-system/order-management-system.iml" filepath="$PROJECT_DIR$/order-management-system/order-management-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/splitwise-system/splitwise-system.iml" filepath="$PROJECT_DIR$/splitwise-system/splitwise-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-broker-application/stock-broker-application.iml" filepath="$PROJECT_DIR$/stock-broker-application/stock-broker-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/uber-low-level-design/uber-low-level-design.iml" filepath="$PROJECT_DIR$/uber-low-level-design/uber-low-level-design.iml" />
       <module fileurl="file://$PROJECT_DIR$/uber-pool-booking-system/uber-pool-booking-system.iml" filepath="$PROJECT_DIR$/uber-pool-booking-system/uber-pool-booking-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/virtual-bank-designs-for-payouts/virtual-bank-designs-for-payouts.iml" filepath="$PROJECT_DIR$/virtual-bank-designs-for-payouts/virtual-bank-designs-for-payouts.iml" />
     </modules>
   </component>
 </project>
