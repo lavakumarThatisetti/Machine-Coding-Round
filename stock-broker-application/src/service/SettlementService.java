@@ -1,7 +1,7 @@
 package service;
 
-import entity.Order;
-import entity.UserAccount;
+import model.Order;
+import model.UserAccount;
 import lock.LockManager;
 import repository.UserRepository;
 

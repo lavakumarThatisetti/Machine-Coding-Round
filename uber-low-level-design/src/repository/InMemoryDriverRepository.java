@@ -1,6 +1,6 @@
 package repository;
 
-import entity.Driver;
+import model.Driver;
 
 import java.util.ArrayList;
 import java.util.List;

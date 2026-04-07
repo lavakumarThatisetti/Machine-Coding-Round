@@ -1,6 +1,6 @@
 package service;
 
-import entity.Reservation;
+import model.Reservation;
 import repository.ReservationRepository;
 
 import java.util.UUID;

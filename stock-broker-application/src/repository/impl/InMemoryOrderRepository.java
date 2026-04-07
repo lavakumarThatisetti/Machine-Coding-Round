@@ -1,11 +1,9 @@
 package repository.impl;
 
-import entity.Order;
+import model.Order;
 import repository.OrderRepository;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;

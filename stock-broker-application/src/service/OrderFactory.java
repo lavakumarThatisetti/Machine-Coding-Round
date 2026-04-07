@@ -1,7 +1,7 @@
 package service;
 
-import entity.Order;
-import entity.OrderSide;
+import model.Order;
+import model.OrderSide;
 
 import java.math.BigDecimal;
 import java.time.Instant;

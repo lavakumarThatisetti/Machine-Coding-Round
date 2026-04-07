@@ -1,6 +1,6 @@
 package repository;
 
-import entity.Trade;
+import model.Trade;
 
 import java.util.List;
 

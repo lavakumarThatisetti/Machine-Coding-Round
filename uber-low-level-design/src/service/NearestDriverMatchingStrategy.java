@@ -1,6 +1,6 @@
 package service;
 
-import entity.*;
+import model.*;
 
 import java.util.Comparator;
 import java.util.List;

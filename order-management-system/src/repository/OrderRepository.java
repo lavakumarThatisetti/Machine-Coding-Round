@@ -1,7 +1,6 @@
 package repository;
 
-import entity.Order;
-import entity.Reservation;
+import model.Order;
 
 import java.util.concurrent.ConcurrentHashMap;
 

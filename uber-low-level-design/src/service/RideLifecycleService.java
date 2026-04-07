@@ -1,6 +1,6 @@
 package service;
 
-import entity.*;
+import model.*;
 import repository.DriverRepository;
 import repository.RideBookingRepository;
 

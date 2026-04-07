@@ -1,7 +1,7 @@
 package service;
 
-import entity.Location;
-import entity.VehicleType;
+import model.Location;
+import model.VehicleType;
 
 public class DefaultPricingStrategy implements PricingStrategy {
     @Override

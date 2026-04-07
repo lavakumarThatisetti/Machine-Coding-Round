@@ -1,6 +1,6 @@
 package repository.impl;
 
-import entity.UserAccount;
+import model.UserAccount;
 import repository.UserRepository;
 
 import java.util.Optional;

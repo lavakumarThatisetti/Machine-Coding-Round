@@ -1,6 +1,6 @@
 package service;
 
-import entity.Stock;
+import model.Stock;
 import repository.OrderBookRepository;
 import repository.StockRepository;
 

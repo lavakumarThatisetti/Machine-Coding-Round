@@ -1,8 +1,8 @@
 package service;
 
-import entity.Driver;
-import entity.Location;
-import entity.VehicleType;
+import model.Driver;
+import model.Location;
+import model.VehicleType;
 
 import java.util.List;
 

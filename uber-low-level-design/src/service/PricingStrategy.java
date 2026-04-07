@@ -1,8 +1,8 @@
 package service;
 
-import entity.Location;
-import entity.RideBooking;
-import entity.VehicleType;
+import model.Location;
+import model.RideBooking;
+import model.VehicleType;
 
 public interface PricingStrategy {
     double estimateFare(Location pickup, Location destination, VehicleType vehicleType);

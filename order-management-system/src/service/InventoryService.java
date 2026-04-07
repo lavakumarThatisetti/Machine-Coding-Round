@@ -1,6 +1,6 @@
 package service;
 
-import entity.ProductInventory;
+import model.ProductInventory;
 import repository.InventoryRepository;
 
 import java.util.concurrent.locks.ReentrantLock;

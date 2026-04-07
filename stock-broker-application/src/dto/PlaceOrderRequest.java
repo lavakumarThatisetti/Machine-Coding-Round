@@ -1,6 +1,6 @@
 package dto;
 
-import entity.OrderSide;
+import model.OrderSide;
 
 import java.math.BigDecimal;
 

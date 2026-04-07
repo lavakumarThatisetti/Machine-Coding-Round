@@ -1,6 +1,6 @@
 package repository.impl;
 
-import entity.OrderBook;
+import model.OrderBook;
 import repository.OrderBookRepository;
 
 import java.util.Optional;

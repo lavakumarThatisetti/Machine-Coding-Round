@@ -1,7 +1,7 @@
 package dto;
 
-import entity.OrderStatus;
-import entity.Trade;
+import model.OrderStatus;
+import model.Trade;
 
 import java.util.List;
 

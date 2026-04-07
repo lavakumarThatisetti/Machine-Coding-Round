@@ -1,9 +1,9 @@
 package service;
 
-import entity.Location;
-import entity.PoolRide;
-import entity.PoolRideStatus;
-import entity.VehicleType;
+import model.Location;
+import model.PoolRide;
+import model.PoolRideStatus;
+import model.VehicleType;
 
 import java.util.Comparator;
 import java.util.List;

@@ -1,6 +1,6 @@
 package repository.impl;
 
-import entity.Trade;
+import model.Trade;
 import repository.TradeRepository;
 
 import java.util.ArrayList;

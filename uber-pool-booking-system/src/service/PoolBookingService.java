@@ -1,6 +1,6 @@
 package service;
 
-import entity.*;
+import model.*;
 import repository.DriverRepository;
 import repository.PoolBookingRepository;
 import repository.PoolRideRepository;
@@ -9,7 +9,6 @@ import repository.RiderRepository;
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Collectors;
 
 public class PoolBookingService {
     private final RiderRepository riderRepository;

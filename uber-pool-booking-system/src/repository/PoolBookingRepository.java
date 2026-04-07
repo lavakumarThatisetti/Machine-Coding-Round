@@ -1,6 +1,6 @@
 package repository;
 
-import entity.PoolBooking;
+import model.PoolBooking;
 
 import java.util.List;
 import java.util.Optional;

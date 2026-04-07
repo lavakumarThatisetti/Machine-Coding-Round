@@ -1,6 +1,6 @@
 package repository;
 
-import entity.Order;
+import model.Order;
 
 import java.util.List;
 import java.util.Optional;

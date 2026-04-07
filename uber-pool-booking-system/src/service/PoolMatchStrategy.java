@@ -1,8 +1,8 @@
 package service;
 
-import entity.Location;
-import entity.PoolRide;
-import entity.VehicleType;
+import model.Location;
+import model.PoolRide;
+import model.VehicleType;
 
 import java.util.List;
 

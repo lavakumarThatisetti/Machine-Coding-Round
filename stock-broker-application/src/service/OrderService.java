@@ -2,10 +2,10 @@ package service;
 
 import dto.PlaceOrderRequest;
 import dto.PlaceOrderResult;
-import entity.Order;
-import entity.OrderBook;
-import entity.OrderSide;
-import entity.Trade;
+import model.Order;
+import model.OrderBook;
+import model.OrderSide;
+import model.Trade;
 import repository.OrderBookRepository;
 import repository.OrderRepository;
 import repository.StockRepository;

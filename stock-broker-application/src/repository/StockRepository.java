@@ -1,6 +1,6 @@
 package repository;
 
-import entity.Stock;
+import model.Stock;
 
 import java.util.Optional;
 

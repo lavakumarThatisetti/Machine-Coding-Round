@@ -1,8 +1,8 @@
 package service;
 
-import entity.Order;
-import entity.OrderBook;
-import entity.Trade;
+import model.Order;
+import model.OrderBook;
+import model.Trade;
 import repository.TradeRepository;
 
 import java.math.BigDecimal;

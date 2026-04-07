@@ -1,7 +1,7 @@
 package service;
 
-import entity.Order;
-import entity.Reservation;
+import model.Order;
+import model.Reservation;
 import repository.OrderRepository;
 
 import java.util.concurrent.Executors;

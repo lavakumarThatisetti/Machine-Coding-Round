@@ -1,6 +1,6 @@
 package repository;
 
-import entity.Rider;
+import model.Rider;
 
 import java.util.Optional;
 

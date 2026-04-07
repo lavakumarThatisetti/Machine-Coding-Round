@@ -1,4 +1,4 @@
-import entity.*;
+import model.*;
 import repository.*;
 import service.*;
 

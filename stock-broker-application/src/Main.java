@@ -1,7 +1,7 @@
 import dto.PlaceOrderRequest;
 import dto.PlaceOrderResult;
-import entity.OrderSide;
-import entity.Trade;
+import model.OrderSide;
+import model.Trade;
 import lock.LockManager;
 import repository.OrderBookRepository;
 import repository.OrderRepository;

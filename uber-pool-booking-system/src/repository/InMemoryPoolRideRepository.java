@@ -1,6 +1,6 @@
 package repository;
 
-import entity.PoolRide;
+import model.PoolRide;
 
 import java.util.ArrayList;
 import java.util.List;

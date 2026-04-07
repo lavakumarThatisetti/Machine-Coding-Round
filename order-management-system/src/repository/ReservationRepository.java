@@ -1,7 +1,7 @@
 package repository;
 
 
-import entity.Reservation;
+import model.Reservation;
 
 import java.util.concurrent.ConcurrentHashMap;
 

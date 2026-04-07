@@ -1,6 +1,6 @@
 package repository;
 
-import entity.ProductInventory;
+import model.ProductInventory;
 
 import java.util.concurrent.ConcurrentHashMap;
 

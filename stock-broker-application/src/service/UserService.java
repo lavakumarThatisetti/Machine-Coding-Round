@@ -1,6 +1,6 @@
 package service;
 
-import entity.UserAccount;
+import model.UserAccount;
 import lock.LockManager;
 import repository.UserRepository;
 
