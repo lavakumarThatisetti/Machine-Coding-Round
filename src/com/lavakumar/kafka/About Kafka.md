@@ -2,7 +2,7 @@ Kafka Design Notes (LLD Perspective)
 
 🎯 Is KafkaBroker a Queue?
 
-No — KafkaBroker is not a queue. Instead, it acts as a manager of many queues.
+No — KafkaBroker is not a queue. Instead, it acts as a repository of many queues.
 
 🧱 Core Components Explained
 

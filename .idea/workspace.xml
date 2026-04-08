@@ -5,164 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/exception/DomainException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/infra/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/infra/SlotLockManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/infra/SystemClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/AppointmentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/BookingResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/BookingStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/CancellationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/CancellationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/DoctorSlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/SlotKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/SlotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/Specialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/TimeSlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/model/WaitlistEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/AppointmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/DoctorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/DoctorSlotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/PatientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/WaitlistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/impl/InMemoryAppointmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/impl/InMemoryDoctorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/impl/InMemoryDoctorSlotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/impl/InMemoryPatientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/impl/InMemoryWaitlistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/repository/impl/WaitlistBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/service/AppointmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/service/AvailabilityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/service/DoctorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/service/PatientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor-appointment-booking-system/src/service/WaitlistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/exception/InvalidOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/exception/PostNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/exception/UnauthorizedPostAccessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/exception/UserAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/model/FeedItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/model/PostStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/repository/FollowRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/repository/impl/InMemoryFollowRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/repository/impl/InMemoryPostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/repository/impl/InMemoryUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/service/FeedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/service/SocialGraphService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/service/strategy/FeedFetchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/service/strategy/HeapFeedFetchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/service/strategy/SimpleFeedFetchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/util/AtomicSequenceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/util/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/util/SequenceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/util/SystemTimeProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/util/TimeProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-media-network-system/src/util/UuidGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/model/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/model/TaskDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/model/TaskRuntime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/repository/InMemoryTaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/retry/ExponentialBackoffRetryPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/retry/RetryPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/service/DependencyRegistrationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/service/DependencyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/service/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/service/TaskExecutionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/trigger/OneTimeTrigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/trigger/Trigger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/entity/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/model/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/entity/ProductInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/model/ProductInventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/entity/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/model/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/entity/ReservationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/model/ReservationStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/repository/ReservationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/service/ExpiryScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/service/ExpiryScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/service/InventoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-management-system/src/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management-system/src/service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/dto/PlaceOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/dto/PlaceOrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/dto/PlaceOrderResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/dto/PlaceOrderResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/Holding.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/Holding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/OrderBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/OrderBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/OrderSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/OrderSide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/PriceLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/PriceLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/Trade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/entity/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/model/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/OrderBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/OrderBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/StockRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/TradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/TradeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryOrderBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryOrderBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryOrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryOrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryStockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryStockRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryTradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryTradeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/repository/impl/InMemoryUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/service/MatchingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/service/MatchingEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/service/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/service/OrderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/service/SettlementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/service/SettlementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/service/StockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/service/TradeHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/service/TradeHistoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-broker-application/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-broker-application/src/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/Cab.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/Cab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/CabStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/CabStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/DriverStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/DriverStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/RideBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/RideBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/RideStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/RideStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/Rider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/entity/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/VehicleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/repository/DriverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/repository/DriverRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/repository/InMemoryDriverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/repository/InMemoryDriverRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/repository/InMemoryRideBookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/repository/InMemoryRideBookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/repository/InMemoryRiderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/repository/InMemoryRiderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/repository/RideBookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/repository/RideBookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/repository/RiderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/repository/RiderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/DefaultPricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/DefaultPricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/DriverAcceptanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/DriverAcceptanceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/DriverMatchingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/DriverMatchingEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/DriverNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/DriverNotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/LoggingDriverNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/LoggingDriverNotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/MatchingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/MatchingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/NearestDriverMatchingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/NearestDriverMatchingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/PricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/PricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/RideLifecycleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/RideLifecycleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-low-level-design/src/service/RideRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/service/RideRequestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/Cab.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/Cab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/CabStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/CabStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/DriverStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/DriverStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/PoolBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/PoolBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/PoolBookingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/PoolBookingStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/PoolRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/PoolRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/PoolRideStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/PoolRideStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-low-level-design/src/model/Rider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/entity/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/model/VehicleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/DriverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/DriverRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/InMemoryDriverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/InMemoryDriverRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/InMemoryPoolBookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/InMemoryPoolBookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/InMemoryPoolRideRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/InMemoryPoolRideRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/InMemoryRiderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/InMemoryRiderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/PoolBookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/PoolBookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/PoolRideRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/PoolRideRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/RiderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/repository/RiderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/service/DefaultPricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/service/DefaultPricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/service/PoolBookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/service/PoolBookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/service/PoolMatchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/service/PoolMatchStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/service/PoolRideLifecycleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/service/PoolRideLifecycleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/service/PricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/service/PricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber-pool-booking-system/src/service/SimplePoolMatchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/uber-pool-booking-system/src/service/SimplePoolMatchStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/kafka/About Kafka.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/About Kafka.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/DependencyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/SchedulerEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/retrypolicy/ExponentialBackoffPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/retrypolicy/RetryPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/task/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/task/TaskDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/task/TaskExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/task/TaskState.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-schedule-system/src/model/TaskStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/trigger/FixedRateTrigger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/trigger/OneTimeTrigger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/trigger/Trigger.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +42,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="448" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -316,13 +190,13 @@
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/splitwise-system/src",
+    "last_opened_file_path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/task-schedule-system/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/doctor-appointment-booking-system/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/task-schedule-system/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -332,11 +206,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task-schedule-system/src" />
       <recent name="$PROJECT_DIR$/splitwise-system/src" />
       <recent name="$PROJECT_DIR$/uber-pool-booking-system/src/entity" />
       <recent name="$PROJECT_DIR$/uber-pool-booking-system/src/service" />
       <recent name="$PROJECT_DIR$/uber-pool-booking-system/src/repository" />
-      <recent name="$PROJECT_DIR$/uber-pool-booking-system/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\uber_with_driver_flow\model" />
@@ -350,7 +224,7 @@
       <recent name="com.lavakumar.kafka.kafka_design_with_parittions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="doctor-appointment-booking-system" />
@@ -358,9 +232,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="virtual-bank-designs-for-payouts" />
+      <module name="task-schedule-system" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -415,7 +289,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632415401662</updated>
-      <workItem from="1775477897904" duration="48248000" />
+      <workItem from="1775477897904" duration="55425000" />
+      <workItem from="1775644520933" duration="3031000" />
     </task>
     <task id="LOCAL-00001" summary="out put updated">
       <created>1634750749536</created>
