@@ -5,35 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/model/ScheduledTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/model/TaskDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/model/TaskRuntime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/repository/InMemoryTaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/retry/ExponentialBackoffRetryPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/retry/RetryPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/service/DependencyRegistrationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/service/DependencyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/service/SchedulerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/service/TaskExecutionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/trigger/OneTimeTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-schedule-system/src/trigger/Trigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/actor/ConsumerWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/actor/OffsetResetStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/actor/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/actor/RecordHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/coordination/ConsumerGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/coordination/ConsumerMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/coordination/KafkaBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/model/MessageRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/model/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-system/src/model/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/queue/InMemoryBoundedSimpleMessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/queue/SimpleMessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/service/ConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/service/ProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/simulation/ConsumerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/simulation/ProducerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/model/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/queue/AckMessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/queue/InFlightMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/queue/MessageEnvelope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/queue/SqsStyleMessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/service/AckConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/service/AckProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/service/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/kafka/About Kafka.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lavakumar/kafka/About Kafka.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/DependencyManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/SchedulerEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/retrypolicy/ExponentialBackoffPolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/retrypolicy/RetryPolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/task/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/task/TaskDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/task/TaskExecution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/task/TaskState.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-schedule-system/src/model/TaskStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/trigger/FixedRateTrigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/trigger/OneTimeTrigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lavakumar/taskschedule/trigger/Trigger.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +170,7 @@
     "Application.KafkaLikeSystemV4_Cluster.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Debug",
+    "Application.Main (3).executor": "Run",
     "Application.Main (4).executor": "Run",
     "Application.Main (5).executor": "Run",
     "Application.Main.executor": "Run",
@@ -181,6 +182,7 @@
     "Application.com.lavakumar.kafka.production_grad_kafka_design.Simulation.executor": "Run",
     "Application.com.lavakumar.uber.Main.executor": "Run",
     "Application.com.lavakumar.uber_with_driver_flow.Main.executor": "Run",
+    "Application.sqs.Main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -190,13 +192,13 @@
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/task-schedule-system/src",
+    "last_opened_file_path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/message-queue-system/src/sqs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/task-schedule-system/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/kafka-system/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -206,11 +208,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/message-queue-system/src/sqs" />
       <recent name="$PROJECT_DIR$/task-schedule-system/src" />
       <recent name="$PROJECT_DIR$/splitwise-system/src" />
       <recent name="$PROJECT_DIR$/uber-pool-booking-system/src/entity" />
       <recent name="$PROJECT_DIR$/uber-pool-booking-system/src/service" />
-      <recent name="$PROJECT_DIR$/uber-pool-booking-system/src/repository" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\91830\IdeaProjects\MachineCodingRound\src\com\lavakumar\uber_with_driver_flow\model" />
@@ -224,7 +226,7 @@
       <recent name="com.lavakumar.kafka.kafka_design_with_parittions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="doctor-appointment-booking-system" />
@@ -239,34 +241,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="stock-broker-application" />
+      <module name="kafka-system" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="splitwise-system" />
+    <configuration name="simple.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simple.Main" />
+      <module name="message-queue-system" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="social-media-network-system" />
+    <configuration name="sqs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sqs.Main" />
+      <module name="message-queue-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.sqs.Main" />
+        <item itemvalue="Application.simple.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +298,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632415401662</updated>
       <workItem from="1775477897904" duration="55425000" />
-      <workItem from="1775644520933" duration="3031000" />
+      <workItem from="1775644520933" duration="14062000" />
     </task>
     <task id="LOCAL-00001" summary="out put updated">
       <created>1634750749536</created>
@@ -592,6 +600,11 @@
           <url>file://$PROJECT_DIR$/social-media-network-system/src/Main.java</url>
           <line>178</line>
           <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kafka-system/src/Main.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/lavakumar/elevator/Driver.java</url>
