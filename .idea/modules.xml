@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MachineCodingRound.iml" filepath="$PROJECT_DIR$/MachineCodingRound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chess-game/chess-game.iml" filepath="$PROJECT_DIR$/chess-game/chess-game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-cache/design-cache.iml" filepath="$PROJECT_DIR$/design-cache/design-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/doctor-appointment-booking-system/doctor-appointment-booking-system.iml" filepath="$PROJECT_DIR$/doctor-appointment-booking-system/doctor-appointment-booking-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-system/kafka-system.iml" filepath="$PROJECT_DIR$/kafka-system/kafka-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/message-queue-system/message-queue-system.iml" filepath="$PROJECT_DIR$/message-queue-system/message-queue-system.iml" />

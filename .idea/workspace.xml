@@ -5,34 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="399ac8ff-73d2-4984-a6d9-59058c69af06" name="Default Changelist" comment="split wise app updated">
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/actor/ConsumerWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/actor/OffsetResetStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/actor/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/actor/RecordHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/coordination/ConsumerGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/coordination/ConsumerMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/coordination/KafkaBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/model/MessageRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/model/Partition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-system/src/model/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/queue/InMemoryBoundedSimpleMessageQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/queue/SimpleMessageQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/service/ConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/service/ProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/simulation/ConsumerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/simple/simulation/ProducerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/model/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/queue/AckMessageQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/queue/InFlightMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/queue/MessageEnvelope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/queue/SqsStyleMessageQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/service/AckConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/service/AckProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-queue-system/src/sqs/service/MessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/MoveResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/MoveType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/PieceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/piece/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/piece/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/piece/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/piece/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/piece/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/piece/PieceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/piece/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/model/piece/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/service/ChessGameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/service/LegalMoveGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/util/BoardCloner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-game/src/validator/MoveValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/distributed/CacheNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/distributed/DistributedCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/distributed/HashRing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/eviction/EvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/eviction/LFUEvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/eviction/LRUEvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/model/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/model/CacheEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/model/CacheSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/sampler/KeySampler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/sampler/RandomKeySampler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/service/ActiveExpiryScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-cache/src/service/SegmentedCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -198,7 +204,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/kafka-system/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/lavakuamar/Documents/Projects/Machine-Coding-Round/design-cache/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -226,17 +232,10 @@
       <recent name="com.lavakumar.kafka.kafka_design_with_parittions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="doctor-appointment-booking-system" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="task-schedule-system" />
+      <module name="design-cache" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,6 +243,13 @@
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="kafka-system" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="chess-game" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.sqs.Main" />
         <item itemvalue="Application.simple.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +304,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632415401662</updated>
       <workItem from="1775477897904" duration="55425000" />
-      <workItem from="1775644520933" duration="14062000" />
+      <workItem from="1775644520933" duration="20127000" />
     </task>
     <task id="LOCAL-00001" summary="out put updated">
       <created>1634750749536</created>
@@ -605,6 +611,16 @@
           <url>file://$PROJECT_DIR$/kafka-system/src/Main.java</url>
           <line>54</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chess-game/src/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/design-cache/src/Main.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/lavakumar/elevator/Driver.java</url>
