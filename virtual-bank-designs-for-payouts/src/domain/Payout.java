@@ -61,7 +61,7 @@ public class Payout {
     }
 
     public synchronized List<BankAttempt> getAttempts() {
-        return Collections.unmodifiableList(new ArrayList<>(attempts));
+        return List.copyOf(attempts);
     }
 
     public synchronized void addNote(String note) {
@@ -69,7 +69,7 @@ public class Payout {
     }
 
     public synchronized List<String> getNotes() {
-        return Collections.unmodifiableList(new ArrayList<>(notes));
+        return List.copyOf(notes);
     }
 
     private void ensureState(PayoutStatus expected) {
