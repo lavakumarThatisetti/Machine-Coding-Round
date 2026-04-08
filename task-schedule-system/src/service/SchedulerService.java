@@ -46,7 +46,7 @@ public class SchedulerService {
             while (running) {
                 try {
                     ScheduledTask scheduledTask = delayQueue.take();
-                    taskExecutionService.executeTask(scheduledTask.getTaskId());
+                    taskExecutionService.executeTask(scheduledTask.taskId());
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     break;

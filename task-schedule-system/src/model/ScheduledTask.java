@@ -3,22 +3,7 @@ package model;
 import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
-public class ScheduledTask implements Delayed {
-    private final String taskId;
-    private final long executeAtMillis;
-
-    public ScheduledTask(String taskId, long executeAtMillis) {
-        this.taskId = taskId;
-        this.executeAtMillis = executeAtMillis;
-    }
-
-    public String getTaskId() {
-        return taskId;
-    }
-
-    public long getExecuteAtMillis() {
-        return executeAtMillis;
-    }
+public record ScheduledTask(String taskId, long executeAtMillis) implements Delayed {
 
     @Override
     public long getDelay(TimeUnit unit) {
