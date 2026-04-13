@@ -1,4 +1,4 @@
-package com.lavakumar;
+package com.lavakumar.inmemorykvstore;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
