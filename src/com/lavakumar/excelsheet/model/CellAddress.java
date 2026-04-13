@@ -1,22 +1,13 @@
 package com.lavakumar.excelsheet.model;
 
-import com.lavakumar.excelsheet.ExcelSheetDemo;
-
-import java.util.Objects;
-
-public class CellAddress implements Comparable<CellAddress> {
-    private final int column;
-    private final int row;
-
-    public CellAddress(int column, int row) {
+public record CellAddress(int column, int row) implements Comparable<CellAddress> {
+    public CellAddress {
         if (column <= 0) {
             throw new IllegalArgumentException("column must be > 0");
         }
         if (row <= 0) {
             throw new IllegalArgumentException("row must be > 0");
         }
-        this.column = column;
-        this.row = row;
     }
 
     public static CellAddress parse(String raw) {
@@ -78,14 +69,6 @@ public class CellAddress implements Comparable<CellAddress> {
         return sb.reverse().toString();
     }
 
-    public int getColumn() {
-        return column;
-    }
-
-    public int getRow() {
-        return row;
-    }
-
     @Override
     public int compareTo(CellAddress other) {
         int rowCompare = Integer.compare(this.row, other.row);
@@ -107,8 +90,4 @@ public class CellAddress implements Comparable<CellAddress> {
         return column == that.column && row == that.row;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(column, row);
-    }
 }

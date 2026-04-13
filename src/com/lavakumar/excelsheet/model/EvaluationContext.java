@@ -1,7 +1,6 @@
 package com.lavakumar.excelsheet.model;
 
 import com.lavakumar.excelsheet.CircularReferenceException;
-import com.lavakumar.excelsheet.ExcelSheetDemo;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
@@ -40,7 +39,7 @@ public class EvaluationContext {
         if (cell == null) {
             value = BigDecimal.ZERO;
         } else {
-            value = cell.getContent().evaluate(this, address);
+            value = cell.content().evaluate(this, address);
         }
 
         memo.put(address, value);
