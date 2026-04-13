@@ -1,7 +1,6 @@
 package com.lavakumar.excelsheet.expression;
 
 import com.lavakumar.excelsheet.model.BinaryOperator;
-import com.lavakumar.excelsheet.model.EvaluationContext;
 
 import java.math.BigDecimal;
 import java.util.Objects;

@@ -2,7 +2,7 @@ package com.lavakumar.excelsheet.cellcontent;
 
 import com.lavakumar.excelsheet.expression.Expression;
 import com.lavakumar.excelsheet.model.CellAddress;
-import com.lavakumar.excelsheet.model.EvaluationContext;
+import com.lavakumar.excelsheet.expression.EvaluationContext;
 
 import java.math.BigDecimal;
 import java.util.Objects;

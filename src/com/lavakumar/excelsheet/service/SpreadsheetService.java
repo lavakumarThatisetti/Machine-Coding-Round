@@ -7,7 +7,7 @@ import com.lavakumar.excelsheet.cellcontent.LiteralCellContent;
 import com.lavakumar.excelsheet.expression.Expression;
 import com.lavakumar.excelsheet.model.Cell;
 import com.lavakumar.excelsheet.model.CellAddress;
-import com.lavakumar.excelsheet.model.EvaluationContext;
+import com.lavakumar.excelsheet.expression.EvaluationContext;
 import com.lavakumar.excelsheet.model.Spreadsheet;
 import com.lavakumar.excelsheet.parser.FormulaParser;
 
